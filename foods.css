@@ -1,0 +1,471 @@
+body{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'system-ui';
+}
+
+
+image{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+                                                    /*       session  1       */
+
+.container-fluid{
+    padding: 0;
+}
+
+header{
+    background-image: url('image/page1.jpg.jpg')  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    padding-top: 10px;
+}
+
+.row{
+    justify-content: center;
+}
+
+.col{
+    text-align: center;
+}
+
+#box{
+    display: inline-block;
+    margin-top: 120px;
+    margin-bottom: 140px;  
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-left: 78px;
+    padding-right: 78px;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+}
+
+ul{
+    display: flex;
+    padding: 0px;
+    margin-top: 7px;
+}
+
+li{
+    list-style: none;
+   font-size: 19px;  
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    margin-right:2px; 
+}
+
+li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#box h2{
+    color: black;
+    font-size: 38px;
+    margin-top: -15px;
+}
+
+#box h1{
+    color: brown;   
+}
+
+.logo h2{
+    font-size: 40px;
+}
+.nav-btn{
+    margin-top: 15px;
+    margin-bottom: auto;
+}
+
+
+
+
+                                                  /*        session  2     */
+
+
+
+#page2{
+    background-color: rgb(54, 54, 78);
+    /* border: 1px solid red; */
+    
+}
+
+.cols-6{
+    text-align: justify;   
+    color:white;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+.flavours1{
+    margin-top: 10%;
+    font-size: 35px;
+}
+.flavours{
+    font-size: 17px;
+    color: white;
+    
+}
+
+
+
+                                                /*      session   3      */
+
+
+#page3{
+    border: 2px solid red;
+    background-color: rgb(185, 185, 228);
+    
+}
+
+.col-4 i, h5{
+    text-align: justify;
+    color: rgb(33, 33, 70);
+    font-size: 30px;
+}
+
+.fa-circle{
+    /* filter : invert(50%);*/
+    color: rgb(33, 33, 78);
+}
+.p3p{
+    text-align: justify;
+    color: rgb(33, 33, 70);
+    font-size: 18px;
+} 
+
+
+
+                                           /* session  4 */
+
+
+
+.big-box{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.big-box1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.sess4-image{
+    background-image: url('image/sess4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-top: 74px;
+    padding-bottom: 74px;
+}
+
+
+
+.para{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: bolder;
+    color: rgb(33, 33, 78);
+}
+
+.para-sec{
+    font-size: 16.5px;
+    text-align: center;
+    color: rgb(33, 33, 78);
+}
+
+.borderblack{
+    border: 1px solid black;
+    padding: 0;
+}
+
+
+
+                                               /*      session      5   */
+
+
+.sess5-box{
+    text-align: center;
+    color: rgb(33, 33, 78);
+    font-size: 20px;
+}
+.pt5{
+    font-size: 35px;
+    margin-bottom: -15px;
+}
+
+.box-5{
+    background-color: rgb(185, 185, 228) ;
+    border: 1px solid red;
+}
+
+.box5-li{
+    padding: 5px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+.p5p{
+    font-size: 19px;
+    margin-bottom: auto;
+}
+.box5-ul{
+    justify-content: center;
+    margin-top: -10px;
+}
+
+
+
+
+                                                 /*        sess   6        */
+
+.sess6-bgimage{
+    background-image: url('image/i4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1075px;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+.sess6-trans{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 200px;
+}
+
+.sess-size{
+    color: black;
+}
+
+.sess6-heading{
+    text-decoration: underline; 
+    color: black;
+    font-size: 19px;  
+}
+.sess6-para{
+    color: black;
+    font-size: 17px;
+    margin-top: -10px;
+}
+
+
+
+                                             /*        sess   7      */
+
+
+
+.sess7-bgcolor{
+    background-color: rgb(54, 54, 78);
+    border: 1px solid red;
+}
+h1{
+    margin-bottom: -2%;
+}
+.button7{
+    color:white;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: rgb(54, 54, 78);
+    width: 200px;
+    font-size: 25px;
+}
+
+label{
+    font-size: 19px;
+}
+
+
+
+                         /*     session 8    */
+
+.sess8{
+    background-color: rgb(185, 185, 228);
+}
+
+.text{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom:  -25px;
+    color: black;
+}
+.text1{
+    font-size: 45px;
+    text-align: center;
+    color: brown;
+}
+
+.color{
+    color: rgb(33, 33, 70);
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.color1{
+    color: rgb(33, 33, 70);
+    text-align: justify;
+    font-size: 18px;
+    margin-top: -10px;
+}
+.btn{
+    margin-top: -15px;
+}
+#rm,#rm1,#rm2{
+    color: rgb(33, 33, 70);
+    text-align: justify;
+}
+
+                              /*    session 9     */
+
+.bgcolor-sess9{
+    background-color: rgb(54, 54, 78);
+    padding: 30px 0px;
+}                           
+
+.sess9-margin{
+    margin: auto;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.color-white{
+    color:rgb(194, 194, 204);
+    padding:15px 0px 0px 0px;
+    font-size: 17px;
+}
+
+.sess9-ma{
+    margin-bottom: 15px;
+}
+
+.sess10-bg{
+    background-color: rgb(185, 185, 228);
+}
+
+.parap{
+    font-size: 14px;
+}
+
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+                             /*    session 10     */
+
+.p10{
+    font-size: 30px;
+    color: black;
+    padding-top: 20px;
+}
+.pa{
+    font-size: 17px;
+    color: black;
+    text-align: justify;
+    margin-right: 25px;
+}
+p{
+    color: black;
+    font-size: 17px;
+}
+.sess10-bg{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+
+
+
+/*                      MEDIA QUEARY              */
+
+
+@media screen and (max-width:576px){
+
+    li a{
+        margin-right:20px;
+    }
+
+    .flavours{
+        font-size: 11px;
+        padding-left:5px ;
+    }
+
+    .small{
+        font-size: 11px;
+    }
+    .form1{
+        justify-content: center;
+    }
+
+    .dasu{
+        border-bottom: 1px solid black;
+    }
+
+    .flavours1{
+        padding-left: 5px;
+    }
+
+    .sess6-bgimage{
+        height: 1128px;       
+    }
+}
+
+
+@media (min-width:576px) and (max-width:768px){
+
+    li a{
+        margin-right:20px;
+    }
+    
+    .flavours{
+        font-size: 12px;
+    }
+    
+    input{
+        margin-left: 15px;
+    }
+     
+    .dasu{
+        border-bottom: 1px solid black;
+    }
+
+}
+    
+
+@media (min-width:768px) and (max-width:992px){
+
+    .flavours{
+        font-size: 12px;
+    }
+
+    .flavours1{
+        font-size: 34px;
+    }
+
+    .dasu{
+        border-bottom: 1px solid black;
+    }
+}
+
+@media  (min-width:992px){
+    .dasu11{
+        border-right: 1px solid black;
+    }
+}
+    
+
